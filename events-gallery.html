@@ -33,51 +33,66 @@
         Masonry Template 
         http://www.templatemo.com/preview/templatemo_434_masonry
         -->
+    <style>
+        /* .navbar-header{
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            left: 50%;
+        } */
+        @media only screen and (min-width: 600px) {
+            .navbar-nav {
+                position: absolute;
+                right: 11rem;
+            }
+
+            .slogo {
+                position: relative;
+                left: 6rem;
+                width: 8rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <nav style="background-color: black;" class="navbar navbar-default navbar-fixed-top">
+    <nav style="background-color: black; border: none;" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-            </button>
-            <img src="logo2.png" alt="SPEC" style="height: 70px;">
-          </div>
-          <div class="collapse navbar-collapse topnav" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a style="color: white;" href="#">About</a></li>
-              <li><a style="color: white;" href="#">Workshops</a></li>
-              <li><a style="color: white;" href="#">Blogs</a></li>
-              <li class="dropdown">
-                <a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Page 1-1</a></li>
-                  <li><a href="#">Page 1-2</a></li>
-                  <li><a href="#">Page 1-3</a></li>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img class="slogo" src="logo2.png" style="width: 8rem" alt="SPEC">
+            </div>
+            <div class="collapse navbar-collapse topnav" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a style="color: white;" href="#">About</a></li>
+                    <li><a style="color: white;" href="#">Workshops</a></li>
+                    <li><a style="color: white;" href="#">Blogs</a></li>
+                    <li><a style="color: white;" href="#">Team SPEC</a></li>
+                    <li><a style="color: white;" href="#">Gallery</a></li>
+                    <li><a style="color: white;" href="#">Electrothon 3.0</a></li>
+                    <li><a style="color: white;" href="#">Alumni</a></li>
+
+                    <li class="dropdown">
+                        <a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" href="#">E-books <span
+                                class="caret"></span></a>
+                        <ul style="background-color: white; color: black;" class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
                 </ul>
-              </li>
-              <li><a style="color: white;" href="#">Electrothon 3.0</a></li>
-              <li><a style="color: white;" href="#">SPEC-Fest</a></li>
-              <li><a style="color: white;" href="#">Team SPEC</a></li>
-              <li class="dropdown">
-                  <a style="color: white;" class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Page 1-1</a></li>
-                    <li><a href="#">Page 1-2</a></li>
-                    <li><a href="#">Page 1-3</a></li>
-                  </ul>
-                </li>
-            </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
+                <!--<ul class="nav navbar-nav navbar-right">
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
               <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>-->
-          </div>
+            </div>
         </div>
-      </nav>
+    </nav>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
