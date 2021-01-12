@@ -1,10 +1,12 @@
-@font-face {
+/*@font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-}
+}*/
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
 /* =======================================================
 *
 * 	Template Style 
@@ -12,7 +14,6 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
@@ -40,7 +41,6 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-header #navbar li a {
-  font-family: "Inconsolata", Arial, sans-serif;
   background: rgba(255, 255, 255, 0.2);
   position: relative;
   font-size: 16px;
@@ -565,7 +564,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   display: block;
   color: white;
-  font-family: "Inconsolata", Arial, sans-serif;
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
