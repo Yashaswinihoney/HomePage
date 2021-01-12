@@ -175,17 +175,25 @@
   .u-section-1 .u-text-2 {
     margin-right: 6px;
   }
-}.u-section-2 {
-  background-image: none;
+ } .u-section-2 {
+   width: 1024px;
+  align-content: center;
+  padding-left: 300px; 
+  padding-right: 200px;
 }
 
 .u-section-2 .u-sheet-1 {
+  width: 1000px;
+
+  background-image:url(q.jpg) ;
+  background-size: 1024px;
+
   min-height: 653px;
 }
 
 .u-section-2 .u-group-1 {
   min-height: 597px;
-  width: 936px;
+  width: 932px;
   margin: 80px auto;
 }
 
