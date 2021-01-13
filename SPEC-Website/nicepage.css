@@ -19171,7 +19171,7 @@ a.u-link.u-hover-color-1-light-1:hover {
 .u-container-style.u-color-1-light-2:before,
 .u-table-alt-color-1-light-2 tr:nth-child(even) {
   color: #111111;
-  background-color: #a8f8ee;
+  background-color:white;
 }
 .u-button-style.u-color-1-light-2,
 .u-button-style.u-color-1-light-2[class*="u-border-"] {
@@ -19187,7 +19187,7 @@ a.u-link.u-hover-color-1-light-1:hover {
 .u-button-style.u-button-style.u-color-1-light-2.active,
 .u-button-style.u-button-style.u-color-1-light-2[class*="u-border-"].active {
   color: #111111 !important;
-  background-color: #81f5e6 !important;
+  background-color: white !important;
 }
 .u-hover-color-1-light-2:hover,
 .u-hover-color-1-light-2[class*="u-border-"]:hover,
@@ -19204,7 +19204,7 @@ a.u-button-style.u-button-style.u-active-color-1-light-2[class*="u-border-"]:act
 a.u-button-style.u-button-style.u-active-color-1-light-2.active,
 a.u-button-style.u-button-style.u-active-color-1-light-2[class*="u-border-"].active {
   color: #111111 !important;
-  background-color: #a8f8ee !important;
+  background-color:white !important;
 }
 a.u-link.u-hover-color-1-light-2:hover {
   color: #a8f8ee !important;
